@@ -121,43 +121,10 @@ if ($_SESSION["valid"] == true) {
 
         </div>
         <a href="emp_dashboard.php" class="btn btn-outline-danger ">Back to Dashboard</a>
-          <input type = "Submit" class="btn btn-outline-success px-4 mr-2" value ="Book">
+          <input class="form-control mt-4 btn btn-success" type="submit" value="Confirm">
         </div>
         
-        <div class="container">
-          <!-- Button to Open the Modal -->
-          <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-          Open modal
-          </button>-->
-          <!-- The Modal -->
-          <div class="modal" id="myModal">
-            <div class="modal-dialog ">
-              <div class="modal-content">
-                
-                <!-- Modal Header -->
-                <div class="modal-header bg-dark">
-                  <h4 class="modal-title">Booking Confirmation</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                
-                <!-- Modal body -->
-                <div class="modal-body bg-dark">
-                  <form action="controllers/confirmbookcontrol.php" method="post">
-                    <label>Enter Password </label>
-                    <input class="form-control mt-2 p-2 " type="password" name="password" placeholder=" Enter your Password" required autocomplete="off">
-                    <input class="form-control mt-4 btn btn-success" type="submit" value="Confirm">
-                  </form>
-                </div>
-                
-                <!-- Modal footer -->
-                <div class="modal-footer bg-dark">
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
+
         
       </form>
     </div>
