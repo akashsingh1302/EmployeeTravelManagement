@@ -80,7 +80,7 @@ if ($_SESSION["valid"] == true) {
       <div class="container-fluid text-center text-info">
         <h2><i class="fa fa-car"></i> Enter Your details and LET'S GO! <i class="fa fa-car"></i></h2>
       </div>
-      <form action="controllers/confirmbookcontrol.php" method="POST" class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+      <form action="#" method="POST" class="col-lg-6 col-md-8 col-sm-10 mx-auto">
         <div class="form-group">
           <label for="Pickup">Objective:</label>
           <input type="text" class="form-control" id="objective" placeholder="Enter the Cause for the Journey" name="objective" required>
@@ -142,7 +142,7 @@ if ($_SESSION["valid"] == true) {
                 
                 <!-- Modal body -->
                 <div class="modal-body bg-dark">
-                  <form action="#" method="post">
+                  <form action="controllers/confirmbookcontrol.php" method="post">
                     <label>Enter Password </label>
                     <input class="form-control mt-2 p-2 " type="password" name="password" placeholder=" Enter your Password" required autocomplete="off">
                     <input class="form-control mt-4 btn btn-success" type="submit" value="Confirm">
