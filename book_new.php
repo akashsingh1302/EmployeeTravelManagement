@@ -121,7 +121,7 @@ if ($_SESSION["valid"] == true) {
 
         </div>
         <a href="emp_dashboard.php" class="btn btn-outline-danger ">Back to Dashboard</a>
-          <button class="btn btn-outline-success px-4 mr-2 " data-toggle="modal" data-target="#myModal">BOOK</button>
+          <button class="btn btn-outline-success px-4 mr-2 " >BOOK</button>
         </div>
         
         <div class="container">
